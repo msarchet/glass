@@ -1,6 +1,6 @@
 {
-  "name": "glass",
-  "version": "0.1.0",
+  "name": "glassy",
+  "version": "0.1.1",
   "description": "Project Scaffolder",
   "main": "lib/glass.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git@github.com:msarchet/glass"
   },
   "keywords": [
-    "glass"
+    "glassy"
   ],
   "author": "Michael Sarchet",
   "license": "MIT",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/msarchet/glass",
   "preferGlobal": true,
   "bin": {
-    "glass": "lib/glass.js"
+    "glassy": "lib/glass.js"
   },
   "dependencies": {
     "glob": "^5.0.7",
