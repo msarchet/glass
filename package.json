@@ -1,0 +1,34 @@
+{
+  "name": "glass",
+  "version": "0.1.0",
+  "description": "Project Scaffolder",
+  "main": "lib/glass.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:msarchet/glass"
+  },
+  "keywords": [
+    "glass"
+  ],
+  "author": "Michael Sarchet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msarchet/glass/issues"
+  },
+  "homepage": "https://github.com/msarchet/glass",
+  "preferGlobal": true,
+  "bin": {
+    "glass": "lib/glass.js"
+  },
+  "dependencies": {
+    "glob": "^5.0.7",
+    "jade": "^1.9.2",
+    "liftoff": "^2.0.3",
+    "map-stream": "0.0.5",
+    "minimist": "^1.1.1",
+    "vinyl-fs": "^1.0.0"
+  }
+}
