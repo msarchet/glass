@@ -1,6 +1,6 @@
 {
   "name": "glassy",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Project Scaffolder",
   "main": "lib/glass.js",
   "scripts": {
