@@ -3,7 +3,7 @@ module.exports = {
     javascript : ['./src/**/*.js'], 
     css : ['./src/**/*.css']
   },
-  relative: ['./src'],
-  templatePath : './src/template.jade',
+  relative: 'src/',
+  template : './src/template.jade',
   output : './index.html'
 }

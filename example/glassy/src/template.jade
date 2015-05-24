@@ -1,8 +1,9 @@
 html
   head
-    title W00t
-    each file in css
-      link(rel='stylesheet', href=relative + file)
+    title Example
+    each stylesheet in css
+      link(rel='stylesheet', type='text/css', src=relative + stylesheet) 
   body
-    each file in javascript
-      script(src=relative + file, type='text/javascript')
+    h1 We did it!
+    each script in javascript
+      src(type='text/javascript', src=relative + script)

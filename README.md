@@ -27,7 +27,7 @@ module.exports = {
       css : [/* globs */] //passed to template as css
   },
   relative : strings, // passed to template as relative
-  templatePath : string, // jade file to use
+  template : string, // jade file to use
   output : string, // path to output to
 }
 ```

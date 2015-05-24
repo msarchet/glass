@@ -1,0 +1,11 @@
+html
+  head
+    title Glassy
+    each stylesheet in css
+      link(rel='stylesheet', type='text/css', src=relative + stylesheet)
+  body
+    h1 Welcome to Glass
+    div There is a div on this page with an id of main if you need somewhere to inject
+    div#main
+    each script in javascript
+      script(type='text/javascript', src=relative + script)
