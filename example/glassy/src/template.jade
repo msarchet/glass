@@ -1,0 +1,8 @@
+html
+  head
+    title W00t
+    each file in css
+      link(rel='stylesheet', href=relative + file)
+  body
+    each file in javascript
+      script(src=relative + file, type='text/javascript')
