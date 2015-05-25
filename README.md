@@ -20,6 +20,18 @@ Then `glassy`
 
  - create a glassfile
 
+- `paths` : passed to template as an object like
+
+```js
+    key : [/* file paths */]
+```
+
+- `relative` : passed to template as relative
+
+- `template` : optional path to jade template
+
+- `output`  : path to output finished html file
+
 ``` js
 module.exports = {
   paths = {
